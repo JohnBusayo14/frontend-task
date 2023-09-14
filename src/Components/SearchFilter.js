@@ -108,6 +108,7 @@
 // SearchFilter.js
 import React, { useState } from 'react';
 
+
 const SearchFilter = ({ cards, setFilteredCards }) => {
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedCategory, setSelectedCategory] = useState('');
@@ -151,7 +152,7 @@ const SearchFilter = ({ cards, setFilteredCards }) => {
 
      
       <button
-        className="mt-2 flex justify-center items-center w-[40%] p-2 bg-[#4c956c] text-center text-white rounded-md  lg:mx-5 h-[30px]"
+        className="mt-2 flex justify-center items-center sm:w-[20%] p-2 bg-[#4c956c] text-center text-white rounded-md  lg:mx-5 h-[40px]"
         onClick={handleSearch}
       >
         Search

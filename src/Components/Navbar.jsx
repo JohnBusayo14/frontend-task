@@ -90,13 +90,13 @@ const Navbar = () => {
       <nav className={`nav-links ${isMobileMenuOpen ? 'open' : ''}`}>
         <ul>
           <li>
-           <Link to="/"> <a href="#">Home</a></Link>
+           <Link to="/"> <a href="/">Home</a></Link>
             </li>
           <li>
-            <Link to="/about"><a href="#">About Us</a></Link>
+            <Link to="/about"><a href="/about">About Us</a></Link>
           </li>
           <li>
-            <Link to="/sevices"> <a href="#">Services</a> </Link>
+            <Link to="/sevices"> <a href="/service">Services</a> </Link>
           </li>
       
         </ul>

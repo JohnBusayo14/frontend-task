@@ -40,6 +40,9 @@
     cursor: pointer;
     font-size: 24px;
   }
+  button{
+    width: 20%;
+  }
   
   @media (max-width: 768px) {
     .nav-links {
@@ -62,5 +65,8 @@
     .mobile-menu-icon {
       display: block;
     }
+    button{
+    width: 50%;
+    }
   }
-  
+ 
