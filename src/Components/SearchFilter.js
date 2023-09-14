@@ -151,7 +151,7 @@ const SearchFilter = ({ cards, setFilteredCards }) => {
 
      
       <button
-        className="mt-2 p-2 bg-[#4c956c]  text-white rounded-md w-[10%]  lg:mx-5 h-[30px]"
+        className="mt-2 flex justify-center items-center w-[40%] p-2 bg-[#4c956c] text-center text-white rounded-md  lg:mx-5 h-[30px]"
         onClick={handleSearch}
       >
         Search

@@ -52,6 +52,7 @@
       padding: 20px;
       transition: transform 0.3s ease-in;
       transform: translateX(100%);
+      overflow: hidden;
     }
   
     .nav-links.open {
