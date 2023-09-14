@@ -122,22 +122,22 @@ const SearchFilter = ({ cards, setFilteredCards }) => {
   };
 
   return (
-    <div  className="p-4 w-full flex flex-col ">
-         <div className='w-full h-32 flex flex-row gap-20 my-5 items-center'>
+    
+         <div className='w-full h-[200px] flex flex-col gap-5 my-2 items-center  md:items-center md:justify-center sm:items-center sm:justify-center'>
         
-         <div className="mb-4 flex flex-row ">
+         
          <input
         type="text"
         placeholder="Search by title"
-        className="p-2 border rounded-md w-full mb-2 outline-none"
+        className="p-2 border rounded-md my-3 outline-none  lg:w-[15%] lg:mx-5  sm: w-[80%]"
         value={searchTerm}
         onChange={(e) => setSearchTerm(e.target.value)}
       />
        
-      </div>
-      <div className="mb-4  flex flex-row gap-5">
+
+    
       <select
-        className="p-2 border rounded-md w-72 outline-none"
+        className="p-2 border rounded-md lg:w-[15%] lg:mx-5 outline-none sm: w-[80%]"
         value={selectedCategory}
         color='#4c956c '
         onChange={(e) => setSelectedCategory(e.target.value)}
@@ -149,17 +149,14 @@ const SearchFilter = ({ cards, setFilteredCards }) => {
         <option  className=' font-medium text-base text-center' value="Advance">Advance</option>
       </select>
 
+     
       <button
-        className="mt-2 p-2 bg-[#4c956c]  text-white rounded-md"
+        className="mt-2 p-2 bg-[#4c956c]  text-white rounded-md w-[10%]  lg:mx-5 h-[30px]"
         onClick={handleSearch}
       >
         Search
       </button>
-      </div>
          </div>
-      
-     
-    </div>
   );
 };
 
